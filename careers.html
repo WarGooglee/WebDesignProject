@@ -1,0 +1,73 @@
+<!doctype html>
+<!-- 
+Author: Graeme Smith s00227303
+Date Created: 20/03/2022
+Page description: Web Design Project
+Modified: 
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Website">
+        <meta name="keywords" content="Website">
+        <meta name="author" content="Graeme Smith">
+        <title>Created car motors.</title>
+        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    </head>
+        <body>
+            <header>
+                <img style="height: 100px; width: 100px;"src="images/logo.png" alt="logo">
+                <h3>Created Car Motors</h3>
+                <nav>
+                    <ul>
+                        <li><a class="home" href="home.html"> Home</a></li>
+                        <li><a class="sales" href="sales.html"> Sales</a></li>
+                        <li><a class="othervendors" href="aboutus.html"> About us</a></li>
+                        <li><a class="contactus" href="careers.html"> Careers</a></li>
+                        <li style="visibility:hidden;opacity:0;height:0;width:0;clear:both"></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <article class="form">
+                        <div class="container">
+                            <form action="action_page.php">
+                      
+                                <label for="fname">Full Name</label>
+                                <input type="text" id="fname" name="ffullname" placeholder="Your name..">
+                      
+                                <label for="email">Email Address</label>
+                                <input type="text" id="email" name="email" placeholder="Your email address..">
+                      
+                                <label for="county">County</label>
+                                <select id="county" name="county">
+                                    <option value="sligo">Sligo</option>
+                                    <option value="mayo">Mayo</option>
+                                    <option value="leitrim">Leitrim</option>
+                                    <option value="galway">Galway</option>
+                                    <option value="roscommon">Roscommon</option>
+                                </select>
+                      
+                                <label for="subject">Why would you like to work with us?</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      
+                                <input type="submit" value="Submit">
+                      
+                        </form>
+                      </div>
+                    </article>
+                    <aside>
+                        <img style="width: 40%; height: 300px;" src="images/joinus.jpg" alt="joinus">
+                        <p>
+                            Placeholder for scroll section with list of jobs.
+                        </p>
+                    </aside>
+                </section>
+            </main>
+            <footer>
+                <p>Copyright© 2022</p>
+            </footer>
+        </body>
+    
+</html>
