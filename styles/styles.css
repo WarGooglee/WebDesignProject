@@ -36,7 +36,7 @@ header img {
 }
 
 header h3 {
-    display: inline-block;
+    display: block;
 }
 
 article {
@@ -65,6 +65,7 @@ footer p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: left;
+    display: block;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -151,6 +152,31 @@ input[type=text], select, textarea {
   .carousel__button--selected {
     background: rgba(255, 255, 255, 0.5);
   }
-  
+
+  .carousel__img {
+      display: inline;
+  }
+
+  p {
+      text-align: center;
+      display: inline;
+  }
+
+  article p {
+      display: block;
+  }
+
+  .specialp {
+      font-size: x-large;
+  }
+
+  aside p {
+      display: inline-block;
+  }
+
+  .containingdiv {
+      overflow: scroll;
+      height: 280px;
+  }
 
  
